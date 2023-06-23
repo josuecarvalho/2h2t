@@ -1,0 +1,41 @@
+.preto{
+    background-color: black;
+    grid-area: preto;
+    height: 40vh;
+}
+.azul{
+    background-color: rgb(10, 6, 235);
+    grid-area: azul;
+    height: 40vh;
+}
+.vermelho{
+    background-color: rgb(240, 8, 8);
+    grid-area: vermelho;
+    height: 20vh;
+}
+.rosa{
+    background-color: rgb(238, 8, 200);
+    grid-area: rosa;
+    height: 40vh;
+
+}
+.cinza{
+    background-color: rgba(153, 133, 133, 0.26);
+    grid-area: cinza;
+    height: 40vh;
+}
+.verde{
+    background-color: rgb(28, 231, 72);
+    grid-area: verde;
+    height: 20vh;
+
+}
+.site{
+    display: grid;
+    grid-template-columns: 10% 70% 20% ;
+    grid-template-areas: 
+    "rosa rosa rosa"
+    "azul cinza verde"
+    "azul cinza vermelho"
+    "preto preto preto";
+}
