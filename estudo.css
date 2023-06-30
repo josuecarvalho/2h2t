@@ -4,28 +4,28 @@
     height: 40vh;
 }
 .azul{
-    background-color: rgb(10, 6, 235);
+    background-color: blue;
     grid-area: azul;
     height: 40vh;
 }
 .vermelho{
-    background-color: rgb(240, 8, 8);
+    background-color: red;
     grid-area: vermelho;
     height: 20vh;
 }
 .rosa{
-    background-color: rgb(238, 8, 200);
+    background-color: pink;
     grid-area: rosa;
     height: 40vh;
 
 }
 .cinza{
-    background-color: rgba(153, 133, 133, 0.26);
+    background-color: grey;
     grid-area: cinza;
     height: 40vh;
 }
 .verde{
-    background-color: rgb(28, 231, 72);
+    background-color: green;
     grid-area: verde;
     height: 20vh;
 
